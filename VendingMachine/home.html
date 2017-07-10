@@ -1,0 +1,67 @@
+<DOCTYPE html>
+
+    <head>
+        <title>Vending Machine</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <center><h1>Vending Machine</h1></center>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="container col-sm-9" id="itemsDiv">
+                </div>
+                <div class="container col-sm-3">
+                    <div class="row">
+                        <center><h3>Total $ In</h3></center>
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="totalDisplay"> 0.00 </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button type="button" class="addMoneyButton"  value="1">Add Dollar</button>
+                            <button type="button" class="addMoneyButton" value=".25">Add Quarter</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button" class="addMoneyButton"  value=".1">Add Dime</button>
+                            <button type="button" class="addMoneyButton" value=".05">Add Nickel</button>
+                        </div>
+                    </div>
+              
+                    <div class="row">
+                        <center><h3>Messages</h3></center>
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="messagesPanel"> <center><h3></h3></center></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4"><h3>Item:</h3></div>
+                        <div class="col-sm-8">
+                            <div class="panel panel-default">
+                            <div class="panel-body" id="itemDisplay"></div>
+                            </div>
+                            <button type="button" id="makePurchasebutton">Make Purchase</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <center><h3>Change</h3></center>
+                        <div class="panel panel-default"id="changeDisplay">
+                            <div class="panel-body"></div>
+                        </div>
+                        <button type="button" id="changebutton">Return Change</button>
+                        <button type="button" id="changebutton2">Return Change</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+
+    </html>
